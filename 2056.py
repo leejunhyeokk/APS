@@ -1,6 +1,3 @@
-import sys
-sys.stdin = open('input_data/2056.txt')
-
 def check_month(month):
     # month = '02'
     if 0 < int(month) < 13:
