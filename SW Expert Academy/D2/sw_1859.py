@@ -11,3 +11,7 @@ for t in range(1, int(input()) + 1):
             maxValue = lst[i]
 
     print(f'#{t} {ans}')
+
+
+
+
