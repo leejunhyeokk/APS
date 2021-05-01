@@ -25,7 +25,7 @@ order by NAME;
 
 ### 입양 시각 구하기(1)
 
-```
+```sql
 select hour(DATETIME) as hour, count(DATETIME)
 from ANIMAL_OUTS
 group by hour
